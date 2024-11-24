@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Studio_Chen.API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Studio-Chen.Core\Studio-Chen.Core.csproj" />
+    <ProjectReference Include="..\Studio-Chen.Data\Studio-Chen.Data.csproj" />
+    <ProjectReference Include="..\Studio-Chen.Service\Studio-Chen.Service.csproj" />
+  </ItemGroup>
+
+</Project>

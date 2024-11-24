@@ -1,0 +1,6 @@
+@Studio_Chen.API_HostAddress = http://localhost:5042
+
+GET {{Studio_Chen.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
