@@ -1,4 +1,5 @@
-﻿using Studio_Chen.Core.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Studio_Chen.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

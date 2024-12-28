@@ -1,4 +1,5 @@
-﻿using Studio_Chen.Core.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Studio_Chen.Core.Entities;
 using Studio_Chen.Core.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,7 @@ namespace Studio_Chen.Data.Repositories
         }
         public List<Course> GetCourses() 
         { 
-            return _context.courses;
+            return _context.courses.ToList();
         }
     }
 }

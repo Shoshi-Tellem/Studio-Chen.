@@ -1,12 +1,279 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7E2FA2-7EF9-4122-81CC-A81BF7B2EC81}|Studio-Chen.Data\\Studio-Chen.Data.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.data\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB7E2FA2-7EF9-4122-81CC-A81BF7B2EC81}|Studio-Chen.Data\\Studio-Chen.Data.csproj|solutionrelative:studio-chen.data\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7E2FA2-7EF9-4122-81CC-A81BF7B2EC81}|Studio-Chen.Data\\Studio-Chen.Data.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB7E2FA2-7EF9-4122-81CC-A81BF7B2EC81}|Studio-Chen.Data\\Studio-Chen.Data.csproj|solutionrelative:studio-chen.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C86659E4-FF4E-4CEF-BC06-429345E65A75}|Studio-Chen.API\\Studio-Chen.API.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C86659E4-FF4E-4CEF-BC06-429345E65A75}|Studio-Chen.API\\Studio-Chen.API.csproj|solutionrelative:studio-chen.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7E2FA2-7EF9-4122-81CC-A81BF7B2EC81}|Studio-Chen.Data\\Studio-Chen.Data.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.data\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB7E2FA2-7EF9-4122-81CC-A81BF7B2EC81}|Studio-Chen.Data\\Studio-Chen.Data.csproj|solutionrelative:studio-chen.data\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB7E2FA2-7EF9-4122-81CC-A81BF7B2EC81}|Studio-Chen.Data\\Studio-Chen.Data.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.data\\migrations\\20241128213010_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB7E2FA2-7EF9-4122-81CC-A81BF7B2EC81}|Studio-Chen.Data\\Studio-Chen.Data.csproj|solutionrelative:studio-chen.data\\migrations\\20241128213010_createdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.core\\classes\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|solutionrelative:studio-chen.core\\classes\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.core\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|solutionrelative:studio-chen.core\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.core\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|solutionrelative:studio-chen.core\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.core\\entities\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|solutionrelative:studio-chen.core\\entities\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.core\\entities\\gymnast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|solutionrelative:studio-chen.core\\entities\\gymnast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.core\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|solutionrelative:studio-chen.core\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.core\\classes\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|solutionrelative:studio-chen.core\\classes\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{539B80AC-8659-41E7-A33D-2E1C51919EDC}|Studio-Chen.Service\\Studio-Chen.Service.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.service\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{539B80AC-8659-41E7-A33D-2E1C51919EDC}|Studio-Chen.Service\\Studio-Chen.Service.csproj|solutionrelative:studio-chen.service\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.core\\services\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7049541-F9EB-43E4-9226-8022EF82B5C1}|Studio-Chen.Core\\Studio-Chen.Core.csproj|solutionrelative:studio-chen.core\\services\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C86659E4-FF4E-4CEF-BC06-429345E65A75}|Studio-Chen.API\\Studio-Chen.API.csproj|c:\\users\\user\\desktop\\\u05E9.\u05D1\\net core\\project\\studio-chen\\studio-chen.api\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C86659E4-FF4E-4CEF-BC06-429345E65A75}|Studio-Chen.API\\Studio-Chen.API.csproj|solutionrelative:studio-chen.api\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.Data\\Repositories\\CourseRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "Studio-Chen.Data\\Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:40:17.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\Program.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\Program.cs",
+              "RelativeToolTip": "Studio-Chen.API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T17:14:53.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\DataContext.cs",
+              "RelativeToolTip": "Studio-Chen.Data\\DataContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:27:49.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.Data\\Migrations\\DataContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeToolTip": "Studio-Chen.Data\\Migrations\\DataContextModelSnapshot.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T22:44:51.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241128213010_createDB.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Migrations\\20241128213010_createDB.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.Data\\Migrations\\20241128213010_createDB.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Migrations\\20241128213010_createDB.cs",
+              "RelativeToolTip": "Studio-Chen.Data\\Migrations\\20241128213010_createDB.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T21:30:11.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Repositories\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.Core\\Repositories\\ICourseRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Repositories\\ICourseRepository.cs",
+              "RelativeToolTip": "Studio-Chen.Core\\Repositories\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:50:34.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.Core\\Entities\\Course.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Entities\\Course.cs",
+              "RelativeToolTip": "Studio-Chen.Core\\Entities\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:13:33.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Gymnast.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Entities\\Gymnast.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.Core\\Entities\\Gymnast.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Entities\\Gymnast.cs",
+              "RelativeToolTip": "Studio-Chen.Core\\Entities\\Gymnast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:15:27.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Entities\\Lesson.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.Core\\Entities\\Lesson.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Entities\\Lesson.cs",
+              "RelativeToolTip": "Studio-Chen.Core\\Entities\\Lesson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:16:03.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Entities\\Teacher.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.Core\\Entities\\Teacher.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Entities\\Teacher.cs",
+              "RelativeToolTip": "Studio-Chen.Core\\Entities\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:16:38.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Classes\\Person.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.Core\\Classes\\Person.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Classes\\Person.cs",
+              "RelativeToolTip": "Studio-Chen.Core\\Classes\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:24:35.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\CourseService.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.Service\\CourseService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\CourseService.cs",
+              "RelativeToolTip": "Studio-Chen.Service\\CourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:36:22.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Services\\ICourseService.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.Core\\Services\\ICourseService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Services\\ICourseService.cs",
+              "RelativeToolTip": "Studio-Chen.Core\\Services\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T02:17:19.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Classes\\Address.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.Core\\Classes\\Address.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Classes\\Address.cs",
+              "RelativeToolTip": "Studio-Chen.Core\\Classes\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:25:24.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "Studio-Chen.API\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9.\u05D1\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "Studio-Chen.API\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T02:01:18.838Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

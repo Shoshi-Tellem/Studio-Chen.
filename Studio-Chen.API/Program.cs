@@ -15,7 +15,8 @@ builder.Services.AddSwaggerGen();
 //builder.Services.AddScoped<IMsgService, EmailService>();
 builder.Services.AddScoped<ICourseService, CourseService>();
 builder.Services.AddScoped<ICourseRepository,CourseRepository>();
-builder.Services.AddSingleton<DataContext>();
+builder.Services.AddDbContext<DataContext>();
+//builder.Services.AddSingleton<DataContext>();
 
 builder.Services.AddCors(opt => opt.AddPolicy("Policy", policy =>
 {

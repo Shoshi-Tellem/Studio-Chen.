@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.API\\Studio-Chen.API.csproj": {}
+    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\Studio-Chen.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.API\\Studio-Chen.API.csproj": {
+    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\Studio-Chen.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.API\\Studio-Chen.API.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\Studio-Chen.API.csproj",
         "projectName": "Studio-Chen.API",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.API\\Studio-Chen.API.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\Studio-Chen.API.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.API\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,14 +33,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj"
+              "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj"
+              "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj"
+              "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj"
               }
             }
           }
@@ -60,6 +60,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -88,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
+    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj",
         "projectName": "Studio-Chen.Core",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Core\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -133,6 +139,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -153,14 +165,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj": {
+    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
         "projectName": "Studio-Chen.Data",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Data\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -182,8 +194,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj"
+              "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj"
               }
             }
           }
@@ -202,6 +214,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -222,14 +246,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj": {
+    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj",
         "projectName": "Studio-Chen.Service",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Service\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -251,8 +275,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj"
+              "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj"
               }
             }
           }

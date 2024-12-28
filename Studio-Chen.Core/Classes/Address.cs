@@ -8,14 +8,15 @@ namespace Studio_Chen.Core.Classes
 {
     public class Address
     {
+        public int AddressId { get; set; }
         public string City { get; set; }
         public string Street { get; set; }
         public int StreetNumber { get; set; }
-        public Address(string city, string street, int streetNumber)
-        {
-            City = city;
-            Street = street;
-            StreetNumber = streetNumber;
-        }
+        //public Address(string city, string street, int streetNumber)
+        //{
+        //    City = city;
+        //    Street = street;
+        //    StreetNumber = streetNumber;
+        //}
     }
 }

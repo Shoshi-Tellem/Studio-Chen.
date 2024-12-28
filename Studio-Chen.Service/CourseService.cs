@@ -1,4 +1,5 @@
-﻿using Studio_Chen.Core.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Studio_Chen.Core.Entities;
 using Studio_Chen.Core.Interfaces;
 using Studio_Chen.Core.Services;
 

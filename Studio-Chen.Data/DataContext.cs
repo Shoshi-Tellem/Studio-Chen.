@@ -1,16 +1,24 @@
-﻿using Studio_Chen.Core.Entities;
+﻿//using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Studio_Chen.Core.Entities;
+using System.Diagnostics;
 
 namespace Studio_Chen.Data
 {
-    public class DataContext
+    public class DataContext : DbContext
     {
-        public List<Course> courses { get; set; }
-        public DataContext()
+        public DbSet<Course> courses { get; set; }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            courses = new List<Course>()
-            { 
-                new Course()
-            };
+            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=Studio-Chen_db");
+            optionsBuilder.LogTo(message => Debug.WriteLine(message));
         }
+        //public DataContext()
+        //{
+        //    courses = new DbSet<Course>()
+        //    { 
+        //        new Course()
+        //    };
+        //}
     }
 }

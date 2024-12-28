@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Net;
 using System.Text;
@@ -9,6 +10,7 @@ namespace Studio_Chen.Core.Classes
 {
     public abstract class Person
     {
+        [Key]
         public int Identity { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

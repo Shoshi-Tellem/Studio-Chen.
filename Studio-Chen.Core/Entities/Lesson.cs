@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace Studio_Chen.Core.Entities
 {
     internal class Lesson
     {
+        [Key]
         public int Identity { get; set; }
         public int CourseIdentity { get; set; }
         public int MeetNumber { get; set; }
