@@ -13,7 +13,7 @@ namespace Studio_Chen.API.Controllers
         private readonly ICourseService _courseService;
         public CoursesController(ICourseService courseService)
         {
-             _courseService = courseService;
+            _courseService = courseService;
         }
         //private readonly IMsgService _msgService;
 
@@ -37,13 +37,9 @@ namespace Studio_Chen.API.Controllers
         public Course Get(int id)
         {
             try
-            {
-                return courses.First(c => c.Identity == id);
-            }
+            { return courses.First(c => c.Identity == id); }
             catch (Exception ex)
-            {
-                throw new Exception("the id isnot valid");
-            }
+            { throw new Exception("the id isnot valid"); }
         }
 
         // POST api/<CoursesController>
@@ -55,10 +51,10 @@ namespace Studio_Chen.API.Controllers
 
         // PUT api/<CoursesController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Course uptatedCourse)
+        public void Put(int id, [FromBody] Course course)
         {
-            //int index = courses.(c => c.Identity == id);
-            //courses[index] = updatedCourse;
+            int index = courses.Find(c => c.Identity == id);
+            courses[index] = course;
         }
 
         // DELETE api/<CoursesController>/5

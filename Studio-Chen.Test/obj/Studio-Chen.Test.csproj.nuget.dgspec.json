@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {}
+    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Test\\Studio-Chen.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
+    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Test\\Studio-Chen.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Core\\Studio-Chen.Core.csproj",
-        "projectName": "Studio-Chen.Core",
-        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Core\\Studio-Chen.Core.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Test\\Studio-Chen.Test.csproj",
+        "projectName": "Studio-Chen.Test",
+        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Test\\Studio-Chen.Test.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Core\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,9 +50,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
             }
           },
           "imports": [
