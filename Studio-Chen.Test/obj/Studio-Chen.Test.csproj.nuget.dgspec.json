@@ -1,17 +1,107 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Test\\Studio-Chen.Test.csproj": {}
+    "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Test\\Studio-Chen.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Test\\Studio-Chen.Test.csproj": {
+    "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\Studio-Chen.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Test\\Studio-Chen.Test.csproj",
-        "projectName": "Studio-Chen.Test",
-        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Test\\Studio-Chen.Test.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\Studio-Chen.API.csproj",
+        "projectName": "Studio-Chen.API",
+        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\Studio-Chen.API.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Test\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj"
+              },
+              "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj",
+        "projectName": "Studio-Chen.Core",
+        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,6 +123,235 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
+        "projectName": "Studio-Chen.Data",
+        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj",
+        "projectName": "Studio-Chen.Service",
+        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\Studio-Chen.Service.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Test\\Studio-Chen.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Test\\Studio-Chen.Test.csproj",
+        "projectName": "Studio-Chen.Test",
+        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Test\\Studio-Chen.Test.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\Studio-Chen.API.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.API\\Studio-Chen.API.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

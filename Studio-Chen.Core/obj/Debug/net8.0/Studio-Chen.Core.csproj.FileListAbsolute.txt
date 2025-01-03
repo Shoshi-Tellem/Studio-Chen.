@@ -24,3 +24,16 @@ C:\Users\User\Desktop\ש.ב\net core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\De
 C:\Users\User\Desktop\ש.ב\net core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\Debug\net8.0\refint\Studio-Chen.Core.dll
 C:\Users\User\Desktop\ש.ב\net core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\Debug\net8.0\Studio-Chen.Core.pdb
 C:\Users\User\Desktop\ש.ב\net core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\Debug\net8.0\ref\Studio-Chen.Core.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Core\bin\Debug\net8.0\Studio-Chen.Core.deps.json
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Core\bin\Debug\net8.0\Studio-Chen.Core.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Core\bin\Debug\net8.0\Studio-Chen.Core.pdb
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\Debug\net8.0\Studio-Chen.Core.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\Debug\net8.0\Studio-Chen.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\Debug\net8.0\Studio-Chen.Core.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\Debug\net8.0\Studio-Chen.Core.AssemblyInfo.cs
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\Debug\net8.0\Studio-Chen.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\Debug\net8.0\Studio-Chen.Core.sourcelink.json
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\Debug\net8.0\Studio-Chen.Core.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\Debug\net8.0\refint\Studio-Chen.Core.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\Debug\net8.0\Studio-Chen.Core.pdb
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Core\obj\Debug\net8.0\ref\Studio-Chen.Core.dll

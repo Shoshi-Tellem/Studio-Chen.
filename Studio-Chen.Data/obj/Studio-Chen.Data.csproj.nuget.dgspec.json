@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Data\\Studio-Chen.Data.csproj": {}
+    "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
+    "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Core\\Studio-Chen.Core.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj",
         "projectName": "Studio-Chen.Core",
-        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Core\\Studio-Chen.Core.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Core\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Data\\Studio-Chen.Data.csproj": {
+    "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
         "projectName": "Studio-Chen.Data",
-        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Data\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -104,8 +104,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Core\\Studio-Chen.Core.csproj"
+              "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj"
               }
             }
           }
@@ -134,6 +134,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [

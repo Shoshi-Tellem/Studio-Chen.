@@ -33,7 +33,17 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "Studio_Chen.Core.Entities.Course",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Studio_Chen.API.Controllers.CoursesController",
@@ -75,15 +85,19 @@
         "IsRequired": true
       },
       {
-        "Name": "uptatedCourse",
+        "Name": "course",
         "Type": "Studio_Chen.Core.Entities.Course",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "Studio_Chen.Core.Entities.Course",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -97,15 +111,24 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "course",
+        "Type": "Studio_Chen.Core.Entities.Course",
+        "IsRequired": true
+      },
+      {
         "Name": "id",
-        "Type": "System.Int32",
+        "Type": "",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "Studio_Chen.Core.Entities.Course",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]

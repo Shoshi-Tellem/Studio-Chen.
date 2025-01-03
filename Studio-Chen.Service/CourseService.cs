@@ -7,14 +7,37 @@ namespace Studio_Chen.Service
 {
     public class CourseService : ICourseService
     {
-        private readonly ICourseRepository _courseRepository;
-        public CourseService(ICourseRepository courseRepository)
+        private readonly IRepository<Course> _repository;
+
+        public CourseService(IRepository<Course> repository)
         {
-            _courseRepository = courseRepository;
+            _repository = repository;
         }
-        public List<Course> GetCourses()
+
+        public IEnumerable<Course> GetCourses()
         {
-            return _courseRepository.GetCourses();
+            Console.WriteLine("course service");
+            return _repository.GetEntities();
+        }
+
+        public Course? GetCourse(int id)
+        {
+            return _repository.GetEntity(id);
+        }
+
+        public Course PostCourse(Course course)
+        {
+            return _repository.PostEntity(course);
+        }
+
+        public Course PutCourse(Course course)
+        {
+            return _repository.PutEntity(course);
+        }
+
+        public Course DeleteCourse(Course course)
+        {
+            return _repository.DeleteEntity(course);
         }
     }
 }

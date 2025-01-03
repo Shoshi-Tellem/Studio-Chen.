@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Studio_Chen.Core.Entities
 {
-    public enum ETypeOfCourse { pilates, design_and_toning, Aerobics_band_dynamic_design, floor_exercise, ballet, dance }
+    public enum ECourseType { pilates, toning, Aerobics, floor_exercise, ballet, dance }
     public class Course
     {
         [Key]
-        public int Identity { get; set; }
+        public int Id { get; set; }
         public int MeetsNumber { get; set; }
-        public ETypeOfCourse Type { get; set; }
+        public ECourseType Type { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public Teacher Teacher { get; set; }
@@ -22,7 +22,7 @@ namespace Studio_Chen.Core.Entities
         List<Lesson> Lessons { get; set; }
         public override string ToString()
         {
-            return $"{Identity} {Gymnasts.ToString}";
+            return $"{Id} {Gymnasts.ToString}";
         }
     }
 }

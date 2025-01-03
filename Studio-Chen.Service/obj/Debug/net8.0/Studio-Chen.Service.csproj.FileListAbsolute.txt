@@ -30,3 +30,19 @@ C:\Users\User\Desktop\ש.ב\net core\PROJECT\Studio-Chen\Studio-Chen.Service\obj
 C:\Users\User\Desktop\ש.ב\net core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\refint\Studio-Chen.Service.dll
 C:\Users\User\Desktop\ש.ב\net core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\Studio-Chen.Service.pdb
 C:\Users\User\Desktop\ש.ב\net core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\ref\Studio-Chen.Service.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\bin\Debug\net8.0\Studio-Chen.Service.deps.json
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\bin\Debug\net8.0\Studio-Chen.Service.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\bin\Debug\net8.0\Studio-Chen.Service.pdb
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\bin\Debug\net8.0\Studio-Chen.Core.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\bin\Debug\net8.0\Studio-Chen.Core.pdb
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\Studio-Chen.Service.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\Studio-Chen.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\Studio-Chen.Service.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\Studio-Chen.Service.AssemblyInfo.cs
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\Studio-Chen.Service.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\Studio-Chen.Service.sourcelink.json
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\Studio-C.338969EE.Up2Date
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\Studio-Chen.Service.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\refint\Studio-Chen.Service.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\Studio-Chen.Service.pdb
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.Service\obj\Debug\net8.0\ref\Studio-Chen.Service.dll

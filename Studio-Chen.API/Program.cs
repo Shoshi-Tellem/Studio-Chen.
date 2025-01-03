@@ -1,4 +1,5 @@
 using Studio_Chen.Core.Interfaces;
+using Studio_Chen.Core.Repositories;
 using Studio_Chen.Core.Services;
 using Studio_Chen.Data;
 using Studio_Chen.Data.Repositories;
@@ -14,7 +15,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 //builder.Services.AddScoped<IMsgService, EmailService>();
 builder.Services.AddScoped<ICourseService, CourseService>();
-builder.Services.AddScoped<ICourseRepository,CourseRepository>();
+builder.Services.AddScoped<IRepositoryManager, RepositoryManager>();
+builder.Services.AddScoped(typeof(IRepository<>),typeof(Repository<>));
 builder.Services.AddDbContext<DataContext>();
 //builder.Services.AddSingleton<DataContext>();
 

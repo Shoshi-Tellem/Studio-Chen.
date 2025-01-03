@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Studio_Chen.Core.Entities
 {
-    internal class Lesson
+    public class Lesson
     {
         [Key]
-        public int Identity { get; set; }
-        public int CourseIdentity { get; set; }
+        public int Id { get; set; }
+        public int CourseId { get; set; }
         public int MeetNumber { get; set; }
         public DateTime Date { get; set; }
         public TimeOnly StartHour { get; set; }

@@ -11,7 +11,7 @@ namespace Studio_Chen.Core.Classes
     public abstract class Person
     {
         [Key]
-        public int Identity { get; set; }
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Phone { get; set; }

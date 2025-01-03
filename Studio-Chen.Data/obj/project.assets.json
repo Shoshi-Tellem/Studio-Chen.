@@ -888,6 +888,19 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "Newtonsoft.Json/8.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.ClientModel/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -2913,6 +2926,31 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "Newtonsoft.Json/8.0.3": {
+      "sha512": "KGsYQdS2zLH+H8x2cZaSI7e+YZ4SFIbyy1YJQYl6GYBWjf5o4H1A68nxyq+WTyVSOJQ4GqS/DiPE+UseUizgMg==",
+      "type": "package",
+      "path": "newtonsoft.json/8.0.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "newtonsoft.json.8.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
     "System.ClientModel/1.0.0": {
       "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "type": "package",
@@ -4020,6 +4058,7 @@
     "net8.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
+      "Newtonsoft.Json >= 8.0.3",
       "Studio-Chen.Core >= 1.0.0"
     ]
   },
@@ -4030,11 +4069,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
       "projectName": "Studio-Chen.Data",
-      "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\Studio-Chen.Data.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Data\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4056,8 +4095,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\net core\\Studio-Chen1\\Studio-Chen.Core\\Studio-Chen.Core.csproj"
+            "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\ש.ב\\dot .NET core\\PROJECT\\Studio-Chen\\Studio-Chen.Core\\Studio-Chen.Core.csproj"
             }
           }
         }
@@ -4086,6 +4125,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.11, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[8.0.3, )"
           }
         },
         "imports": [
@@ -4107,5 +4150,27 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json' 8.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 8.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

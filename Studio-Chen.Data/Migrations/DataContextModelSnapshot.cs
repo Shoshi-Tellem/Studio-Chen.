@@ -24,11 +24,11 @@ namespace Studio_Chen.Data.Migrations
 
             modelBuilder.Entity("Studio_Chen.Core.Classes.Address", b =>
                 {
-                    b.Property<int>("AddressId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AddressId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("City")
                         .IsRequired()
@@ -41,18 +41,18 @@ namespace Studio_Chen.Data.Migrations
                     b.Property<int>("StreetNumber")
                         .HasColumnType("int");
 
-                    b.HasKey("AddressId");
+                    b.HasKey("Id");
 
-                    b.ToTable("Address");
+                    b.ToTable("Addresses");
                 });
 
             modelBuilder.Entity("Studio_Chen.Core.Entities.Course", b =>
                 {
-                    b.Property<int>("Identity")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Identity"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
@@ -67,31 +67,31 @@ namespace Studio_Chen.Data.Migrations
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("TeacherIdentity")
+                    b.Property<int>("TeacherId")
                         .HasColumnType("int");
 
                     b.Property<int>("Type")
                         .HasColumnType("int");
 
-                    b.HasKey("Identity");
+                    b.HasKey("Id");
 
-                    b.HasIndex("TeacherIdentity");
+                    b.HasIndex("TeacherId");
 
-                    b.ToTable("courses");
+                    b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("Studio_Chen.Core.Entities.Gymnast", b =>
                 {
-                    b.Property<int>("Identity")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Identity"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("AddressId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CourseIdentity")
+                    b.Property<int?>("CourseId")
                         .HasColumnType("int");
 
                     b.Property<string>("Email")
@@ -110,22 +110,50 @@ namespace Studio_Chen.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Identity");
+                    b.HasKey("Id");
 
                     b.HasIndex("AddressId");
 
-                    b.HasIndex("CourseIdentity");
+                    b.HasIndex("CourseId");
 
-                    b.ToTable("Gymnast");
+                    b.ToTable("Gymnasts");
+                });
+
+            modelBuilder.Entity("Studio_Chen.Core.Entities.Lesson", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CourseId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<TimeOnly>("EndHour")
+                        .HasColumnType("time");
+
+                    b.Property<int>("MeetNumber")
+                        .HasColumnType("int");
+
+                    b.Property<TimeOnly>("StartHour")
+                        .HasColumnType("time");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Lessons");
                 });
 
             modelBuilder.Entity("Studio_Chen.Core.Entities.Teacher", b =>
                 {
-                    b.Property<int>("Identity")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Identity"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("AddressId")
                         .HasColumnType("int");
@@ -146,18 +174,18 @@ namespace Studio_Chen.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Identity");
+                    b.HasKey("Id");
 
                     b.HasIndex("AddressId");
 
-                    b.ToTable("Teacher");
+                    b.ToTable("Teachers");
                 });
 
             modelBuilder.Entity("Studio_Chen.Core.Entities.Course", b =>
                 {
                     b.HasOne("Studio_Chen.Core.Entities.Teacher", "Teacher")
                         .WithMany("courses")
-                        .HasForeignKey("TeacherIdentity")
+                        .HasForeignKey("TeacherId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -174,7 +202,7 @@ namespace Studio_Chen.Data.Migrations
 
                     b.HasOne("Studio_Chen.Core.Entities.Course", null)
                         .WithMany("Gymnasts")
-                        .HasForeignKey("CourseIdentity");
+                        .HasForeignKey("CourseId");
 
                     b.Navigation("Address");
                 });
