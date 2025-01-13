@@ -22,6 +22,21 @@ namespace Studio_Chen.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("CourseGymnast", b =>
+                {
+                    b.Property<int>("CoursesId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("GymnastsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CoursesId", "GymnastsId");
+
+                    b.HasIndex("GymnastsId");
+
+                    b.ToTable("CourseGymnast");
+                });
+
             modelBuilder.Entity("Studio_Chen.Core.Classes.Address", b =>
                 {
                     b.Property<int>("Id")
@@ -91,9 +106,6 @@ namespace Studio_Chen.Data.Migrations
                     b.Property<int>("AddressId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CourseId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -113,8 +125,6 @@ namespace Studio_Chen.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("AddressId");
-
-                    b.HasIndex("CourseId");
 
                     b.ToTable("Gymnasts");
                 });
@@ -143,6 +153,8 @@ namespace Studio_Chen.Data.Migrations
                         .HasColumnType("time");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
 
                     b.ToTable("Lessons");
                 });
@@ -181,6 +193,21 @@ namespace Studio_Chen.Data.Migrations
                     b.ToTable("Teachers");
                 });
 
+            modelBuilder.Entity("CourseGymnast", b =>
+                {
+                    b.HasOne("Studio_Chen.Core.Entities.Course", null)
+                        .WithMany()
+                        .HasForeignKey("CoursesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Studio_Chen.Core.Entities.Gymnast", null)
+                        .WithMany()
+                        .HasForeignKey("GymnastsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Studio_Chen.Core.Entities.Course", b =>
                 {
                     b.HasOne("Studio_Chen.Core.Entities.Teacher", "Teacher")
@@ -200,11 +227,18 @@ namespace Studio_Chen.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Studio_Chen.Core.Entities.Course", null)
-                        .WithMany("Gymnasts")
-                        .HasForeignKey("CourseId");
-
                     b.Navigation("Address");
+                });
+
+            modelBuilder.Entity("Studio_Chen.Core.Entities.Lesson", b =>
+                {
+                    b.HasOne("Studio_Chen.Core.Entities.Course", "Course")
+                        .WithMany()
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
                 });
 
             modelBuilder.Entity("Studio_Chen.Core.Entities.Teacher", b =>
@@ -216,11 +250,6 @@ namespace Studio_Chen.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Address");
-                });
-
-            modelBuilder.Entity("Studio_Chen.Core.Entities.Course", b =>
-                {
-                    b.Navigation("Gymnasts");
                 });
 
             modelBuilder.Entity("Studio_Chen.Core.Entities.Teacher", b =>

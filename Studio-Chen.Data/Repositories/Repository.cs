@@ -19,7 +19,7 @@ namespace Studio_Chen.Data.Repositories
             _dbSet = context.Set<T>();
         }
 
-        public IEnumerable<T> GetEntities()
+        public List<T> GetEntities()
         {
             Console.WriteLine("repository");
             Console.WriteLine(_dbSet);

@@ -10,7 +10,7 @@ namespace Studio_Chen.Core.Services
 {
     public interface ICourseService
     {
-        IEnumerable<Course> GetCourses();
+        List<Course> GetCourses();
 
         Course? GetCourse(int id);
 

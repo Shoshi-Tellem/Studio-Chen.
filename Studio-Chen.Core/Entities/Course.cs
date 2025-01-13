@@ -16,10 +16,11 @@ namespace Studio_Chen.Core.Entities
         public ECourseType Type { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
+        public int TeacherId { get; set; }
         public Teacher Teacher { get; set; }
         public List<string> Equipment { get; set; }
         public List<Gymnast> Gymnasts { get; set; }
-        List<Lesson> Lessons { get; set; }
+        public List<Lesson> Lessons { get; set; }
         public override string ToString()
         {
             return $"{Id} {Gymnasts.ToString}";

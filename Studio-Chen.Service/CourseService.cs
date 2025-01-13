@@ -14,10 +14,10 @@ namespace Studio_Chen.Service
             _repository = repository;
         }
 
-        public IEnumerable<Course> GetCourses()
+        public List<Course> GetCourses()
         {
             Console.WriteLine("course service");
-            return _repository.GetEntities();
+            return _repository.GetEntities().ToList();
         }
 
         public Course? GetCourse(int id)

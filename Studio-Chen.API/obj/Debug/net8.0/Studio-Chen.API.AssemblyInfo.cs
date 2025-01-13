@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Studio-Chen.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75f15c0a363712aeb6dfc1fcb0537986517e1d69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32685f1d31902517ba80cfb4e67c054d2c439b23")]
 [assembly: System.Reflection.AssemblyProductAttribute("Studio-Chen.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Studio-Chen.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

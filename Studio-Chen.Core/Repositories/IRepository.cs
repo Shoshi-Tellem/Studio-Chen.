@@ -10,7 +10,7 @@ namespace Studio_Chen.Core.Interfaces
 {
     public interface IRepository<T>
     {
-        IEnumerable<T> GetEntities();
+        List<T> GetEntities();
 
         T? GetEntity(int id);
 

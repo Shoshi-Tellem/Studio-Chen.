@@ -7,17 +7,7 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Studio_Chen.Core.Entities.Course, Studio-Chen.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Studio_Chen.API.Controllers.CoursesController",
@@ -28,22 +18,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "course",
-        "Type": "Studio_Chen.Core.Entities.Course",
+        "Name": "coursePost",
+        "Type": "Studio_Chen.API.Entities.CoursePost",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Studio_Chen.Core.Entities.Course",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Studio_Chen.API.Controllers.CoursesController",
@@ -59,17 +39,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Studio_Chen.Core.Entities.Course",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Studio_Chen.API.Controllers.CoursesController",
@@ -90,17 +60,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Studio_Chen.Core.Entities.Course",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Studio_Chen.API.Controllers.CoursesController",
@@ -121,16 +81,6 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Studio_Chen.Core.Entities.Course",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   }
 ]

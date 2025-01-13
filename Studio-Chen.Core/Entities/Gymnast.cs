@@ -9,5 +9,6 @@ namespace Studio_Chen.Core.Entities
 {
     public class Gymnast : Person
     {
+        public List<Course> Courses { get; set; }
     }
 }
