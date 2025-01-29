@@ -25,19 +25,19 @@ namespace Studio_Chen.Service
             return _repository.GetEntity(id);
         }
 
-        public Course PostCourse(Course course)
+        public async Task<Course> PostCourseAsync(Course course)
         {
-            return _repository.PostEntity(course);
+            return await _repository.PostEntityAsync(course);
         }
 
-        public Course PutCourse(Course course)
+        public async Task<Course> PutCourseAsync(Course course)
         {
-            return _repository.PutEntity(course);
+            return await _repository.PutEntityAsync(course);
         }
 
-        public Course DeleteCourse(Course course)
+        public async Task<Course> DeleteCourseAsync(Course course)
         {
-            return _repository.DeleteEntity(course);
+            return await _repository.DeleteEntityAsync(course);
         }
     }
 }

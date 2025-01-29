@@ -14,10 +14,10 @@ namespace Studio_Chen.Core.Interfaces
 
         T? GetEntity(int id);
 
-        T PostEntity(T Entity);
+        Task<T> PostEntityAsync(T entity);
 
-        T PutEntity(T Entity);
+        Task<T> PutEntityAsync(T entity);
 
-        T DeleteEntity(T entity);
+        Task<T> DeleteEntityAsync(T entity);
     }
 }

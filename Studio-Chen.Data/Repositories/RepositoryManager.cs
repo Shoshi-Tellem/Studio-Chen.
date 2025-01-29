@@ -29,9 +29,9 @@ namespace Studio_Chen.Data.Repositories
             Teachers = teachers;
         }
 
-        public void save()
+        public async Task saveAsync()
         {
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
     }
 }

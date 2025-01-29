@@ -14,10 +14,10 @@ namespace Studio_Chen.Core.Services
 
         Course? GetCourse(int id);
 
-        Course PostCourse(Course course);
+        Task<Course> PostCourseAsync(Course course);
 
-        Course PutCourse(Course course);
+        Task<Course> PutCourseAsync(Course course);
 
-        Course DeleteCourse(Course course);
+        Task<Course> DeleteCourseAsync(Course course);
     }
 }

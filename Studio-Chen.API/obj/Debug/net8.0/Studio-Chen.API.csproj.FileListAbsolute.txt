@@ -449,3 +449,5 @@ C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.API\ob
 C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.API\obj\Debug\net8.0\Studio-Chen.API.genruntimeconfig.cache
 C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.API\obj\Debug\net8.0\ref\Studio-Chen.API.dll
 C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\User\Desktop\ש.ב\dot .NET core\PROJECT\Studio-Chen\Studio-Chen.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -19,7 +19,7 @@
     "Parameters": [
       {
         "Name": "coursePost",
-        "Type": "Studio_Chen.API.Entities.CoursePost",
+        "Type": "Studio_Chen.API.Entities.CoursePostPut",
         "IsRequired": true
       }
     ],
@@ -55,8 +55,8 @@
         "IsRequired": true
       },
       {
-        "Name": "course",
-        "Type": "Studio_Chen.Core.Entities.Course",
+        "Name": "coursePut",
+        "Type": "Studio_Chen.API.Entities.CoursePostPut",
         "IsRequired": true
       }
     ],

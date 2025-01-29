@@ -18,6 +18,6 @@ namespace Studio_Chen.Core.Repositories
 
         public IRepository<Teacher> Teachers { get; }
 
-        void save();
+        Task saveAsync();
     }
 }

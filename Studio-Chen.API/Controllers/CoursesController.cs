@@ -51,7 +51,7 @@ namespace Studio_Chen.API.Controllers
                 TeacherId = coursePost.TeacherId,
                 Equipment = coursePost.Equipment
             };
-            return Ok(_courseService.PostCourse(course));
+            return Ok(_courseService.PostCourseAsync(course));
         }
 
         // PUT api/<CoursesController>/5
@@ -67,14 +67,14 @@ namespace Studio_Chen.API.Controllers
                 TeacherId = coursePut.TeacherId,
                 Equipment = coursePut.Equipment
             };
-            return Ok(_courseService.PutCourse(course));
+            return Ok(_courseService.PutCourseAsync(course));
         }
 
         // DELETE api/<CoursesController>/5
         [HttpDelete("{id}")]
         public ActionResult/*Course*/ Delete(Course course)
         {
-            return Ok(_courseService.DeleteCourse(course));
+            return Ok(_courseService.DeleteCourseAsync(course));
         }
     }
 }
